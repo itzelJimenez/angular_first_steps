@@ -1,8 +1,9 @@
-<div>
-  <p>name: {{ name }}</p>
-  <p>street: {{ address.street }}</p>
-  <p>street: {{ address.city }}</p>
-  <u>
-    <li *ngFor='let hobby of hobbies'>{{ hobby }}</li>
-  </u>
-</div>
+<ul>
+  <li *ngFor='let user of users'>
+    {{ user }}
+  </li>
+</ul>
+
+<button (click)='sayHello()'>
+  Click me!
+</button>
