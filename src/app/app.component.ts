@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   users = ['Jon', 'Lupita', 'Laura'];
+  active = true;
 }
