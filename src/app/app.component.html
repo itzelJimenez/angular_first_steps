@@ -1,5 +1,8 @@
-<ul *ngIf='active'>
-  <li *ngFor='let user of users'>
-    {{ user }}
-  </li>
-</ul>
+<div>
+  <p>name: {{ name }}</p>
+  <p>street: {{ address.street }}</p>
+  <p>street: {{ address.city }}</p>
+  <u>
+    <li *ngFor='let hobby of hobbies'>{{ hobby }}</li>
+  </u>
+</div>

@@ -6,6 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  users = ['Jon', 'Lupita', 'Laura'];
-  active = true;
+  name: string = 'Itzel';
+  age: number;
+  address: {
+    street: string;
+    city: string;
+  };
+  hobbies: string[];
+
+  constructor() {
+    this.age = 28;
+    this.address = {
+      street: '229 Baker Street',
+      city: 'London'
+    };
+    this.hobbies = ['swimming', 'read', 'write']
+  }
 }
