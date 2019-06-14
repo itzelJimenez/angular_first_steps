@@ -1,9 +1,5 @@
 <ul>
   <li *ngFor='let user of users'>
-    {{ user }}
+    {{ user }} <button (click)='deleteUser(user)'>x</button>
   </li>
 </ul>
-
-<button (click)='sayHello()'>
-  Click me!
-</button>
