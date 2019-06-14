@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   users: string[] = ['Luis', 'Clara', 'Roberto']
+  name: string = "Jon Carter";
+  age: number = 28;
 
   sayHello() {
     alert('Hello')
