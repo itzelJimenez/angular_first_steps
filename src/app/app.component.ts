@@ -19,4 +19,10 @@ export class AppComponent {
       }
     }
   }
+
+  addUser(newUser) {
+    this.users.push(newUser.value)
+    newUser.value = ''
+    return false;
+  }
 }
